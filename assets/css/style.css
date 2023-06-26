@@ -27,6 +27,10 @@ body {
     background: #ffb900;
 }
 
+.btn:hover {
+    opacity: 0.8;
+}
+
 .line-clamp {
     display: -webkit-box;
     -webkit-line-clamp: var(--line-clamp, 2);
