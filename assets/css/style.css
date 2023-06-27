@@ -24,7 +24,7 @@
 html,
 body {
     scroll-behavior: smooth;
-    overflow: overlay;
+    /* overflow: overlay; */
 }
 
 html {
@@ -62,20 +62,20 @@ a {
     text-decoration: none;
 }
 
-.content {
-    width: 1170px;
-    max-width: calc(100vw - 270px);
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .header {
     padding-top: 36px;
     padding-bottom: 12px;
     background: #fffcf4;
     position: sticky;
-    top: -24px;
+    top: -26px;
     z-index: 1;
+}
+
+.content {
+    width: 1170px;
+    max-width: calc(100vw - 270px);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header .menu {
