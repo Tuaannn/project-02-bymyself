@@ -89,6 +89,7 @@ a {
 }
 
 .header .meunu-item {
+    position: relative;
     display: flex;
     align-items: center;
     gap: 42px;
