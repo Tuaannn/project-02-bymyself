@@ -345,12 +345,15 @@ a {
 }
 
 .popular-courses .courses-item {
+    width: 33.33%;
+    border: 1px solid #e2dfda;
     border-radius: 12px;
     background: #fff;
 }
 
 .popular-courses .courses-item:hover {
     box-shadow: 0px 18px 36px 0px rgba(0, 0, 0, 0.05);
+    border: 1px solid transparent;
 }
 
 .popular-courses .row-bottom {
@@ -360,7 +363,8 @@ a {
 }
 
 .popular-courses .row-bottom .image {
-    width: 370px;
+    margin: -1px;
+    width: calc(100% + 2px);
     height: 278px;
     object-fit: cover;
     border-radius: 12px 12px 0px 0px;
